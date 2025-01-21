@@ -39,10 +39,10 @@ resource "aws_iam_policy" "lambda_s3_policy" {
           "s3:ListBucket"
         ],
         "Resource" : [
-          "arn:aws:s3:::etl-raw-zone-bucket",
-          "arn:aws:s3:::etl-raw-zone-bucket/*",
-          "arn:aws:s3:::etl-processed-zone-bucket",
-          "arn:aws:s3:::etl-processed-zone-bucket/*"
+          "arn:aws:s3:::hazeliscoding-etl-raw-zone-bucket",
+          "arn:aws:s3:::hazeliscoding-etl-raw-zone-bucket/*",
+          "arn:aws:s3:::hazeliscoding-etl-processed-zone-bucket",
+          "arn:aws:s3:::hazeliscoding-etl-processed-zone-bucket/*"
         ]
       }
     ]
